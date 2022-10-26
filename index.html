@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rapunzel</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./img/ataque.png" type="image/x-icon">
+</head>
+<body>
+    <div class="game">
+        <div class="boxGame">
+            <div class="top">
+                <div class="attacking">
+                    <div class="energyAttacking">
+                        <span class="attackingName" id="nameAttacking">Rapunzel</span>
+                    </div>
+                    <div class="globalEnergy">
+                        <div class="energyimg">
+                            <img src="./img/ataque.png" alt="Foto de uma frigieira">
+                        </div>
+                        <div class="energyBar">
+                            <div class="energy">
+                                <span class="power">Power</span>
+                            </div>
+                        </div>
+                        <span class="powerNumber" id="powerSpan">1000</span>
+                    </div>
+                </div>
+                <div class="defense">
+                    <div class="boxDefense">
+                        <div class="energydefenseName">
+                            <span class="defenseName" id="nameDefense">Flynn</span>
+                        </div>
+                        <div class="globalEnergy">
+                            <div class="energyimg">
+                                <img src="./img/sun.png" alt="Foto do sol da Rapunzel de Enrolados" id="idSun">
+                            </div>
+                            <div class="energyBar">
+                                <div class="energy" id="heEnergy">
+                                    <span class="life">Life</span>
+                                </div>
+                            </div>
+                            <div class="changeNumber" id="idChange">
+                                <span class="lifeNumber" id="lifeNumberSpan">1000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom" id="gameOver">
+                <div class="imgBeginning">
+                    <div class="sheImgBeginning">
+                        <img src="./img/rapunzelInicio.png" id="rapunzelBeginning">
+                    </div>
+                    <div class="heImgBeginning">
+                        <img src="./img/flynnInicio.png" id="flynnBeginning">
+                    </div>
+                    <div class="divGameover">
+                        <div id="boxGameOver"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
