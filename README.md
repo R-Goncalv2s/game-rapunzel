@@ -1,0 +1,2 @@
+# game-rapunzel
+Aqui desenvolvi um gamezinho com o intuito de aprendizado(também porque sou fã do filme Enrolados hihi). Funciona assim: O usuario informa o nome do atacante, o valor de dano do ataque, o nome da defesa e quanto a defesa tem de vida. Exemplo: Atacante Rapunzel tem força de ataque 100 e a Defesa Flynn tem 1000 de vida. A partir disso, toda vez que o usuario clicar em alguma tecla do teclado, a defesa perde vida, isso diminui sua barra de energia, até chegar em 0 e acontecer o GAME OVER. 
