@@ -33,9 +33,14 @@ var floatPower=parseFloat(power)
 if(floatLife<floatPower){
     varLife.innerHTML=0
     boxOver.innerHTML=`GAME OVER`
-    rapunzelBeginning.src=''
-    flynnBeginning.src=''
-    boxGame.style.backgroundImage="url('./gameOver.webp')"
+    rapunzelBeginning.src='./img/rapunzelOver.png'
+    rapunzelBeginning.style.left='0'
+    rapunzelBeginning.style.marginTop='11px'
+    flynnBeginning.src='./img/flyynOver.png'
+    flynnBeginning.style.height='171px'
+    flynnBeginning.style.right='0'
+    flynnBeginning.style.marginTop='223px'
+    flynnBeginning.style.width= '505px'
     boxOver.classList.add('GameOverSHOW')
 }
 else{
